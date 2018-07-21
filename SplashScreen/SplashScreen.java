@@ -50,23 +50,24 @@ public class SplashScreen extends javax.swing.JFrame {
         percBar.setForeground(new Color(0, 0, 0));
         percBar.setFont(new Font("Times New Roman", Font.BOLD, 12));
         percBar.setHorizontalAlignment(SwingConstants.CENTER);
-        percBar.setBounds(277, 201, 46, 14);
+        percBar.setBounds(266, 193, 39, 10);
         panel.add(percBar);
         
         loadingLabel = new JLabel("Loading...");
         loadingLabel.setBackground(new Color(255, 255, 255));
         loadingLabel.setFont(new Font("Times New Roman", Font.BOLD, 14));
         loadingLabel.setForeground(new Color(255, 255, 255));
-        loadingLabel.setBounds(266, 235, 69, 22);
+        loadingLabel.setBounds(255, 219, 69, 22);
         panel.add(loadingLabel);
         
         progressBar = new JProgressBar();
         progressBar.setBackground(new Color(255, 255, 255));
         progressBar.setForeground(new Color(102, 204, 255));
-        progressBar.setBounds(137, 201, 317, 14);
+        progressBar.setBounds(126, 190, 327, 18);
         panel.add(progressBar);
         
         lblNewLabel = new JLabel("");
+        lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 10));
         lblNewLabel.setIcon(new ImageIcon("C:\\Users\\DELL\\Downloads\\1b0b6a59f5edf4d8eb33e218553b208e.jpg"));
         lblNewLabel.setBounds(0, 0, 558, 306);
         panel.add(lblNewLabel);
